@@ -1,0 +1,377 @@
+#checkbox {
+	margin-left:10px;
+}
+
+h1 {
+	font-family: Trebuchet;
+}
+
+header {
+	width: 850px;
+	position:absolute;
+	top: 0px;
+    	background-color:#FFF;
+	height: 170px;
+	box-shadow: 1px 1px 25px black;
+}
+
+#logo {
+	float:left;
+}
+
+footer {
+	width: 850px;
+	position:absolute;
+	top: 1180px;
+	height:50px;
+	color:white;
+}
+
+#content_conge {
+	width: 850px;
+	background-color:#D6D6D6;
+	position:absolute;
+	top:190px;
+	bottom:55px;
+	height:100%;
+	box-shadow: 1px 1px 25px black;
+	overflow:auto;
+}
+
+#content {
+	width: 850px;
+	background-color:#D6D6D6;
+	position:absolute;
+	top:190px;
+	height:120%;
+	box-shadow: 1px 1px 25px black;
+}
+body {
+    width: 850px;
+    text-align: center;
+    margin: 20px auto;
+    background-image:url(img/background.jpeg);
+}
+
+#identification {
+	display:block;
+	height:300px;
+	margin-top:125px;
+	margin-bottom:50px;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.bouton {
+	top:50px;
+	text-align: center;
+}
+
+.bouton2 {
+	margin-right:5%;
+}
+
+.inline {
+	display:inline-block;
+}
+
+.formulaire {
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	/*float:left;*/
+}
+
+.periodecom {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d6d6d6), color-stop(1, #5b5c66) );
+	background:-moz-linear-gradient( center top, #d6d6d6 5%, #5b5c66 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6d6d6', endColorstr='#5b5c66');
+	background-color:#d6d6d6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ccc8cc;
+	display:inline-block;
+	color:#D90000;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.periodecom:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5b5c66), color-stop(1, #d6d6d6) );
+	background:-moz-linear-gradient( center top, #5b5c66 5%, #d6d6d6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5b5c66', endColorstr='#d6d6d6');
+	background-color:#5b5c66;
+}
+
+.periodecom:active {
+	position:relative;
+	top:1px;
+}
+
+
+#indent1 {
+	margin-right: 30px;
+}
+
+#indent2 {
+	margin-right:67px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px; 
+	/*display:inline-block;*/
+}
+
+input.bouton {
+	border:ridge;
+	border-radius: 5px;
+	background-color:#D70005;
+	color:#FFF;
+}
+
+.menu {
+	margin-top:10px;
+	font-size:30px;
+	font-family:calibri;
+}
+#accueil {
+	height:50px;
+	position:absolute;
+	top:120px;
+	left:0px;
+	right:567px;
+	/*background-color:white;*/
+	text-decoration: none;
+	background:liear-gradient(#90C, #FFFFF); 
+}
+
+#membres {
+	height:50px;
+	position:absolute;
+	left:283px;
+	right:283px;
+	top:120px;
+	background-color:white;
+	text-decoration: none;
+}
+
+#calendrier {
+	height:50px;
+	position:absolute;
+	top:120px;
+	right:0px;
+	left:567px;
+	background-color:white;
+	text-decoration: none;	
+}
+
+#accueil:hover {
+	color:white;
+	background-color:black;
+}
+
+#membres:hover {
+	color:white;
+	background-color:black;
+}
+
+#calendrier:hover {
+	color:white;
+	background-color:black;
+}
+
+
+
+#deconnexion {
+	position:absolute;
+	left:720px;
+	right:0px;
+	top:5px;
+}
+
+/*[fmt]0020-000A-3*/
+.year{
+	color:#D90000;
+	font-size:50px;
+	display:inline;
+}
+
+.relative{
+	position:relative;
+}
+
+#anneecal {
+	color:#D90000; 
+	font-size:50px; 
+	ont-weight:bold;  
+	text-transform:uppercase; 
+	text-decoration:none;
+}
+
+.chxannee { 
+	text-decoration:none; 
+	color:#888888; 
+	font-size:50px; 
+	ont-weight:bold;  
+	text-transform:uppercase; 
+}
+
+.chxannee:hover { 
+	color:#D90000;
+}
+
+.chxannee.active {
+	color:#D90000;
+}
+
+a.active{  
+	color:#D90000;
+}
+
+.month{  
+	margin-top:15px;
+}
+
+.months ul{  
+	list-style:none;  
+	margin:0px;  
+	padding:0px;
+	margin-left:12px;
+}
+
+.months ul li a{  
+	float:left;  
+	margin:-1px;  
+	padding:0px 15px 0px 0px;  
+	color:#888888;  
+	text-decoration:none;  
+	font-size:24px;  
+	font-weight:bold;  
+	text-transform:uppercase;
+}
+
+.months ul li a:hover, .months ul li a.active{  
+	color:#D90000;
+}
+
+table{  
+	border-collapse:collapse;
+	margin-left:65px;
+}
+
+table td{  
+	border:1px solid #A3A3A3;  
+	width:80px;  
+	height:80px;
+}
+
+table td.today{  
+	border:2px solid #D90000;  
+	width:80px;  
+	height:80px;
+}
+
+table td.padding{  
+	border:none;
+}
+
+table td:hover{  
+	background:#DFDFDF;  
+	cursor:pointer;
+}
+
+table th{  
+	font-weight:normal;  
+	color:#A8A8A8;
+}
+
+table td .day{  
+	position:absolute;  
+	color:#8C8C8C;  
+	bottom:-40px;  
+	right:5px;  
+	font-weight:bold;  
+	font-size:24.3pt;
+}
+
+table td .events{  
+	position:relative;  
+	width:79px;  
+	height:0px;  
+	margin:-39px 0px 0px;  
+	padding:0px;
+}
+
+table td .events li{  
+	width:10px;  
+	height:10px;  
+	float:left;  
+	background:#000; 
+	/moz-border-radius:10px;  
+	-webkit-border-radius:10px;  
+	-khtml-border-radius:10px; 
+	border-radius:10px 10px 10px 10px;
+	margin-left:6px; 
+	margin-top:5px; 
+	overflow:hidden;  
+	text-indent:-3000px;
+}
+
+table td:hover .events{  
+	position:absolute;
+	top:50px; 
+	left:650px;
+	width:442px;
+	list-style:none;  
+	margin:0px;  
+	padding:11px 0px 0px;
+}
+
+
+table td:hover .events li{  
+	height:40px;  
+	line-height:40px;  
+	font-weight:bold;  
+	/*border-bottom:1px solid #D6D6D6;*/
+	padding-left:41px;  
+	text-indent:0;  
+	background:white;
+	width:500px;
+	box-shadow: 4px 4px 20px black;
+}
+
+table td:hover .events li:first-child{  
+	/*border-top:1px solid #D6D6D6;*/
+	margin-top:18px;
+}
+
+table td .daytitle{  
+	display:none;
+}
+
+table td:hover .daytitle{  
+	position:absolute;  
+	left:582px;  
+	top:21px;  
+	width:442px;  
+	list-style:none;  
+	margin:0px 0px 0px 16px;  
+	padding:0px;  
+	color:#D90000;  
+	font-size:41px;  
+	display:block;  
+	font-weight:bold;
+}
+
+.clear{  
+	clear:both;
+}
+
+#conge {
+	color:red;
+}
